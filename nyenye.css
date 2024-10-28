@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track{
+    background: #1e1e24;
+}
+body::-webkit-scrollbar-thumb{
+    background: #6649b8;
+}
+
+.conta{
+    padding: 15%;
+}
+.conta h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 1000;
+    font-size: 100px;
+}
+.btn{
+    margin-top: 200px;
+    margin-left: 425px;
+    width: 200px;
+    height: auto;
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.);
+    transition: all .7s ease;
+}
+
+.content p{
+    color: rgb(161, 159, 159);
+    font-size: 25px;
+    text-align: justify;
+}
+.kuro{
+    color: rgb(161, 159, 159);
+    font-size: 25px;
+    text-align: center;
+}
+
+
+.wrapper{
+    display: block;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 125px;
+}
+.wrapper2{
+    display: block;
+    margin: 75px auto;
+    width: 70%;
+    margin-bottom: 125px;
+}
+.wrapper3{
+    display: block;
+    margin: 75px auto;
+    width: 70%;
+    margin-bottom: 125px;
+}
+.wrapper4{
+    display: block;
+    margin: 75px auto;
+    width: 70%;
+    margin-bottom: 125px;
+}
+.wrapper5{
+    display: block;
+    margin: 75px auto;
+    width: 70%;
+    margin-bottom: 125px;
+}
+.wrapper6{
+    display: block;
+    margin: 75px auto;
+    width: 70%;
+    margin-bottom: 150px;
+}
+
+.wrapper img{
+    display: flex;
+    max-width: 400px;
+    float: top;
+    border-radius: 10px;
+    margin-left: 350px;
+    margin-bottom: 25px;
+    
+}
+.wrapper2 img{
+    display: flex;
+    max-width: 250px;
+    float: right;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.wrapper3 img{
+    display: flex;
+    max-width: 330px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.wrapper4 img{
+    display: flex;
+    max-width: 300px;
+    float: right;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.wrapper5 img{
+    display: flex;
+    max-width: 250px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.wrapper6 img{
+    display: flex;
+    max-width: 250px;
+    float: right;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+
+body{
+    background: linear-gradient(20deg, #382268 , #382268, rgb(64, 52, 85), rgb(64, 52, 85), rgb(51, 34, 81));
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 100vh;
+    background-image: url(pics/bgbgbgbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cont{
+    padding: 5px;
+}
+.cont h1{
+    color: rgb(161, 159, 159);
+    text-align: center;
+    font-weight: 1000;
+}
+.cont p{
+    color: rgb(161, 159, 159);
+    font-size: 150%;
+    text-align: center;
+}
+h1{
+    padding-bottom: 10px;
+}
+p{
+    font-size: 125%;
+    text-align: justify;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.laman{
+    background-color: rgba(255, 255, 255, 0.05);
+    width: 500px;
+    margin: 30px;
+    border-radius: 15px;
+}
+.laman p{
+    padding: 15px;
+    text-align: justify;
+}
+.laman h2{
+    padding: 10px;
+    text-align: center;
+}
+.laman a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.laman:hover{
+    background-color: rgba(213, 164, 172, 0.304);
+    color: pink;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+.laman a:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.);
+    transition: all .7s ease;
+}
+
+
+.imahe{
+    background-color: aqua;
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.img-1{
+    background-image: url(pics/Kuromi.gif);
+    
+
+}
+
+hr{
+    grid-column: 1/-1;
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-top: 3px solid rgba(161, 159, 159, .3);
+}
